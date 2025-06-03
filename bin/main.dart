@@ -1,5 +1,8 @@
-import 'package:dart_practice/calculate.dart' as calc;
+import 'package:dart_practice/string_func.dart' as str_func;
 
-void main(List<String> arguments) {
-  calc.funks();
+void main(){
+  str_func.funk(
+  'Mustafo '*3
+  );
+
 }
