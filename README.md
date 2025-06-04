@@ -1,26 +1,28 @@
-# 📘 Программа: Использование `String` с функциями в Dart
+📁 1. String Functions App (English Version)
 
-## 🔍 Описание
-Данный проект демонстрирует работу со строками (`String`) в языке программирования Dart. В программе реализованы различные функции для обработки строк, такие как:
+# 📘 Project: Using `String` Functions in Dart
 
-- Изменение регистра символов
-- Поиск подстрок
-- Разделение строк
-- Замена символов
-- Конкатенация
-- Проверка содержания
-- Обработка пользовательского ввода
+## 🔍 Description
+This project demonstrates how to work with `String` objects in the Dart programming language. It includes various functions for string manipulation, such as:
 
-## 🎯 Цель
-Цель программы — показать, как можно эффективно использовать встроенные методы и пользовательские функции для работы со строками в Dart.
+- Changing letter case
+- Searching for substrings
+- Splitting strings
+- Replacing characters
+- Concatenation
+- Checking contents
+- Handling user input
 
-## 💡 Возможности
-- Работа с любыми строковыми значениями
-- Гибкое управление форматированием текста
-- Простая и понятная структура кода
-- Комментарии к каждой функции
+## 🎯 Goal
+The goal is to show how built-in string methods and custom functions can be used effectively in Dart.
 
-## 📄 Пример кода
+## 💡 Features
+- Process any type of text input
+- Clean and readable structure
+- Helpful comments for each function
+- Easy to extend
+
+## 📄 Example Code
 ```dart
 String formatName(String name) {
   return name.trim().toUpperCase();
@@ -30,3 +32,10 @@ void main() {
   String userName = "  mustafo  ";
   print(formatName(userName)); // MUSTAFO
 }
+
+👤 Author
+
+"Ma'murzoda Mustafo"
+🛠️ Language
+
+    Dart (100%)
